@@ -20,7 +20,7 @@ jobs:
         java-version: '17'
 
     - name: Setup Android SDK
-      uses: android-actions/setup-android@v2
+      uses: android-actions/setup-android@v4
 
     - name: Grant execute permission
       run: sudo chmod +x ./gradlew
